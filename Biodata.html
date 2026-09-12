@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form HTML</title>
+</head>
+<body>
+	<form>
+		<h2>Biodata Saya</h2>
+		<label>Nama Lengkap: </label>
+			<input type="text" placeholder="Inputkan nama..." maxlength="10"> <br>
+		<label>Tgl. Lahir: </label>
+			<input type="date"> <br>
+		<label>Bulan Lahir: </label>
+			<input type="month"><br>
+		<label>Minggu Lahir: </label>
+			<input type="week"><br>			
+		<label>Jam Lahir: </label>
+			<input type="time"><br>
+		<label>Usia: </label>
+			<input type="number" placeholder="Inputkan usia..."><br>
+		<label>Jenis Kelamin: </label>
+			<input type="radio" value="L" name="jenkel">Laki-laki<br>
+			<input type="radio" value="P" name="jenkel">Perempuan<br>
+		<label>Hobby: </label>
+			<input type="checkbox" value="Makan">Makan-makan
+			<input type="checkbox" value="Jalan">Jalan-jalan
+			<input type="checkbox" value="Olga">Olahraga <br>
+		<label>Pilih Kelas mu: </label>
+			<select>
+				<option value="">Pilih Kelas Anda</option>
+				<optgroup label="Kelas X">
+					<option value="10RPL1">X RPL 1</option>
+					<option value="10RPL2">X RPL 2</option>
+					<option value="10RPL3">X RPL 3</option>
+				</optgroup>
+				<optgroup label="Kelas XI">
+					<option value="11RPL1">XI RPL 1</option>
+					<option value="11RPL2">XI RPL 2</option>
+					<option value="11RPL3">XI RPL 3</option>
+				</optgroup>
+				<optgroup label="Kelas XII">
+					<option value="12RPL1">XII RPL 1</option>
+					<option value="12RPL2">XII RPL 2</option>
+					<option value="12RPL3">XII RPL 3</option>
+				</optgroup>
+			</select><br>
+		<label>Foto apa aja bebas: </label>
+			<input type="file"><br>
+		<label>Warna Favorit: </label>
+			<input type="color"><br>
+		<label>Rate Web Ini: </label>
+			<input type="range"><br>
+		<label>Tulis Pesan Mu Untuk Kami: </label>
+			<input type="password" placeholder="Datamu aman di kami, santai aja..."><br>
+		<input type="button" value="Tombol Button">
+		<input type="submit" value="Tombol Submit">
+		<input type="reset" value="Tombol Reset">
+	</form>
+</body>
+</html>
