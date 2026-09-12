@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-color: gray;
 }
 
 .img-profile {
@@ -21,4 +21,14 @@ p {
 
 h3 {
 	font-family: cursive;
+}
+
+.deretan-gambar {
+    display: flex;
+    gap: 15px;
+}
+
+.deretan-gambar img {
+    width:100%;
+    height: 400px;
 }
