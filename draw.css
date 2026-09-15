@@ -1,0 +1,16 @@
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	text-align: center;
+}
+
+.hachimi {
+	display: block;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+}
